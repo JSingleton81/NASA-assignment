@@ -1,43 +1,25 @@
-body {
-  background-color: rgb(51, 165, 22);
+/* body {
   margin: 0;
-  padding: 0; 
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,1fr);
-  border: 1px solid red;
-  height: 100%;
+  grid-template-rows: repeat(50% 50%);
+  height: 110vh;
   width: 100%;
-  background-color: blue;
 }
 
-.top {
-  color: white;
-  font-size: 56px;
-
+.grid-container div.nasa {
+  grid-row: 1/2;
 }
 
-section {
-  flex: 1;
-  height: 50%;
-  display: flex; 
-  justify-content: center;
-  align-items: center; 
-
-}
-
-section p {
-  margin: 0 0 6px 0;
-} 
 .top-header {
   border: 1px solid green;
   grid-column: 1/4;
   grid-row: 1/2;
   background-image: url("./NASA-assignment.jpg");
-  height: 450px;
+  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,18 +35,16 @@ section p {
   grid-column: 1/4;
   display: flex;
   flex-direction: row;
-  align-items:flex-start; 
-  justify-content: flex-start;
+  align-items: center; 
+  justify-content: center;
   border: 1px solid purple;
   height: 100%;
   width: 100%;
   background-color: red;
 }
 section.bottom div {
-  /* flex: 1; */
+  flex: 1;
 }
-
-
 
 .social-media {
   grid-row: 2/3;
@@ -74,8 +54,8 @@ section.bottom div {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  /* justify-content: center; */
+  align-items:start;
+  justify-content: center;
   background-color: violet;
 } 
 
@@ -88,7 +68,7 @@ section.bottom div {
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* justify-content: center; */
+  justify-content: center;
   background-color: honeydew;
 }
 
@@ -99,25 +79,13 @@ section.bottom div {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: start;
-  /* justify-content: left; */
+  justify-content: left;
   background-color: dodgerblue;
 
 }
 
-.form {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-button {
- width: 100px;
- background-color: brown;
- color: white;
- padding: 6px 0;
-}
-  
-
+/* p { */
+  margin: 0;
+ */
